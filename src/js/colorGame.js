@@ -67,6 +67,7 @@ for(var i = 0; i < squares.length; i++) {
        result.textContent = "You win!!!";
        result.style.color = pickedColor;
      	resetButton.textContent = "Play again?";
+	resetButton.style.cursor = "pointer";
      	changeColors(clickedColor);
      	h1.style.background = clickedColor;
      } else {
