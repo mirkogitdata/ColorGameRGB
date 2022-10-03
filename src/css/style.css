@@ -1,113 +1,115 @@
 body {
-	background: rgb(102, 51, 243);
+    background: rgb(102, 51, 243);
     margin: 0;
-	font-family: "Montserrat", "Avenir", sans-serif;
+    font-family: "Montserrat", "Avenir", sans-serif;
 }
 
 h1 {
-	color: white;
-	text-align: center;
-	background: rgb(102, 51, 243);
-	margin: 0;
-	padding: 1.5rem 0rem;
-	line-height: 1.4;
-	letter-spacing: 0.3rem;
-	font-weight: normal;
-	text-transform: uppercase;
+    color: white;
+    text-align: center;
+    background: rgb(102, 51, 243);
+    margin: 0;
+    padding: 1.5rem 0rem;
+    line-height: 1.4;
+    letter-spacing: 0.3rem;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 #colorDisplay {
-	font-size: 200%;
-	color: white;
-	font-weight: 700;
-	letter-spacing: 0.2rem;
+    font-size: 200%;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
 }
 
 #container {
-	max-width: 600px;
-	margin: 5rem auto;
-	display: grid;
-	grid-gap: 20px;
+    max-width: 600px;
+    margin: 5rem auto;
+    display: grid;
+    grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
- .square {
+
+.square {
     padding: 5rem;
     background-color: purple;
     margin: 1.66%;
     border-radius: 15%;
-    cursor: pointer;	 
+    cursor: pointer;
     transition: 0.7s ease-out background;
-   -webkit-transition: 0.7s ease-out background;
-   -moz-transition: 0.7s ease-out background;
+    -webkit-transition: 0.7s ease-out background;
+    -moz-transition: 0.7s ease-out background;
 }
 
 #stripe {
-	background: white;
-	height: 50px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	color: black;
+    background: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
 }
+
 #message {
-	display: inline-block;
-	width: 20%;
-	font-size: 1.4em;
+    display: inline-block;
+    width: 20%;
+    font-size: 1.4em;
 }
 
 .selected {
-	background: rgb(102, 51, 243);
-	color: white;
-	cursor: pointer;
+    background: rgb(102, 51, 243);
+    color: white;
+    cursor: pointer;
 }
 
 button {
-	border: none;
-	background: none;
-	text-transform: uppercase;
-	height: 100%;
-	color: rgb(102, 51, 243);
-	font-weight: 800;
-	letter-spacing: 1px;
-	font-size: 1.2em;
-	transition: 0.3s ease all;
-	-webkit-transition: 0.3s ease all;
-	-moz-transition: 0.3s ease all;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    color: rgb(102, 51, 243);
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
 }
 
 button:hover {
-	background:rgb(102, 51, 243);
-	color: white;
+    background: rgb(102, 51, 243);
+    color: white;
 }
+
 
 /*Media queriesb*/
 
 @media screen and (max-width: 900px) {
-	
-	#colorDisplay {
-		font-size: 140%;
-	}
-	#message {
-		font-size: 1.2em;
-	}
-	#container {
-		max-width: 90%;
-		margin: 3rem auto;
+    #colorDisplay {
+        font-size: 140%;
+    }
+    #message {
+        font-size: 1.2em;
+    }
+    #container {
+        max-width: 90%;
+        margin: 3rem auto;
         grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
-	}
-	 .square {
-		padding: 3rem;
-		margin: 3%;
-	}
+    }
+    .square {
+        padding: 3rem;
+        margin: 3%;
+    }
 }
 
 @media screen and (max-width: 500px) {
-	#message {
-		font-size: 1.1em;
-	}
-	button {
-		font-size: 1em;
-	}
+    #message {
+        font-size: 1.1em;
+    }
+    button {
+        font-size: 1em;
+    }
 }
