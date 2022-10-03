@@ -32,9 +32,10 @@ h1 {
 }
  .square {
     padding: 5rem;
-	background-color: purple;
+    background-color: purple;
     margin: 1.66%;
     border-radius: 15%;
+    cursor: pointer;	 
     transition: 0.7s ease-out background;
    -webkit-transition: 0.7s ease-out background;
    -moz-transition: 0.7s ease-out background;
