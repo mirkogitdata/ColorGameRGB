@@ -51,13 +51,17 @@ h1 {
 	text-align: center;
 	color: black;
 }
-
+#reset {
+	cursor: pointer;
+}
 #message {
 	display: inline-block;
 	width: 20%;
 	font-size: 1.4em;
 }
-
+#easeBtn {
+	cursor: pointer;
+}
 .selected {
 	background: rgb(102, 51, 243);
 	color: white;
