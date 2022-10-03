@@ -9,8 +9,11 @@ result.style.color = "#6633f3";
 result.style.fontWeight = 800;
 let h1 = document.querySelector("h1");
 let resetButton = document.querySelector("#reset");
+resetButton.style.cursor = "pointer";
 let easeBtn = document.querySelector("#easeBtn");
+easeBtn.style.cursor = "pointer";
 let hardBtn = document.querySelector("#hardBtn");
+hardBtn.style.cursor = "pointer";
 
 easeBtn.addEventListener("click",function(){
    easeBtn.classList.add("selected");
