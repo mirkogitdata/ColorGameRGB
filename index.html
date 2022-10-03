@@ -6,29 +6,34 @@
     <title>RGB Color Game</title>
     <link rel="stylesheet" type="text/css" href="src/css/style.css">
 </head>
-<!--header-->
-<header>
-    <h1>Color Game<br> <span id="colorDisplay">RGB</span></h1>
-</header>
-<!--#stripe-->
-<section id="stripe">
-    <button id="reset">New colors</button>
-    <span id="message"></span>
-    <button id="easeBtn">Ease</button>
-    <button id="hardBtn" class="selected">Hard</button>
-</section>
-<!--#squares-->
-<section id="container">
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-</section>
 
-<script src="src/js/colorGame.js" type="text/javascript"></script>
-<script src="src/js/advancedJavaScript.js" type="text/javascript"></script>
+<body>
+    <!--header-->
+    <header>
+        <h1>Color Game<br> <span id="colorDisplay">RGB</span></h1>
+    </header>
+    <!--#stripe-->
+    <section id="stripe">
+        <button id="reset">New colors</button>
+        <span id="message"></span>
+        <button id="easeBtn" class="selected">Ease</button>
+        <button id="mediumBtn">Medium</button>
+        <button id="hardBtn">Hard</button>
+    </section>
+    <!--#squares-->
+    <section id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square" style="display: none;"></div>
+        <div class="square" style="display: none;"></div>
+        <div class="square" style="display: none;"></div>
+        <div class="square" style="display: none;"></div>
+        <div class="square" style="display: none;"></div>
+        <div class="square" style="display: none;"></div>
+    </section>
+
+    <script src="src/js/colorGame.js" type="text/javascript"></script>
 </body>
 
 </html>
